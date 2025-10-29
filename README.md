@@ -1,6 +1,6 @@
-# 🧠 Job Market Skill Extraction & Analysis
+# Job Market Skill Extraction & Analysis
 
-An end-to-end **ETL pipeline** that automatically fetches job postings, scrapes full descriptions, extracts relevant **skills using NLP-based matching**, stores the data in a **PostgreSQL database**, and visualizes trends in the most in-demand skills and top employers.
+An end-to-end **ETL pipeline** that fetches job postings, scrapes full descriptions, extracts relevant **skills using keyword matching**, stores the data in a **PostgreSQL database**, and visualizes trends in the most in-demand skills and top employers.
 
 
  # Features
@@ -15,14 +15,14 @@ Top employers by job count
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project automates the process of analyzing the job market for data-related roles.  
 It fetches job data from the **Adzuna API**, extracts and cleans job descriptions, identifies required technical skills, and stores the data in a relational database for visualization and analysis.
 
 ---
 
-## 🧩 Pipeline Summary
+## Pipeline Summary
 
 | Step | Module | Description |
 |------|---------|-------------|
@@ -37,22 +37,6 @@ It fetches job data from the **Adzuna API**, extracts and cleans job description
 | **9. Data Analysis** | `analysis.ipynb` | Visualizes top skills, top employers, and calculates average number of skills per job. |
 
 ---
-
-## 🧱 Folder Structure
-project/
-│
-├────scripts/
-├── fetch_jobs.py
-├── skills.py
-├── scrape_description.py
-├── skill_extraction.py
-├── transformation.py
-├── db_connection.py
-├── load.py
-├── ETL.py
-├──── visualisations/ 
-├── analysis.ipynb
-└────  requirements.txt
 
 ## Technologies Used
 
